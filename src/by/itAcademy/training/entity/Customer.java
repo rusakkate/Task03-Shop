@@ -110,16 +110,4 @@ public class Customer {
 	}
 
 
-	public static Customer getCustomer (int id, String surname, String name, String patronymic, int cardNumber) {
-		Customer customer = new Customer();
-		
-		customer.id = id;
-		customer.surname = surname;
-		customer.name = name;
-		customer.patronymic = patronymic;
-		customer.cardNumber = cardNumber;
-		
-		return customer;
-	}
-
 }
